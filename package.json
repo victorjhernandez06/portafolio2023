@@ -1,0 +1,40 @@
+{
+  "name": "portfolio2023",
+  "version": "1.0.0",
+  "description": "Aqui encontraras informacion sobre los ultimos trabajos que he realizado en el ambito digital, desde construccion de websites desde cero, tiendas online y publicidades en redes sociales.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorjhernandez06/portfolio2023.git"
+  },
+  "keywords": [
+    "pagina",
+    "website",
+    "paginasweb",
+    "web",
+    "victor",
+    "hernandez"
+  ],
+  "author": "Ing. Hernandez Victor Jesus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorjhernandez06/portfolio2023/issues"
+  },
+  "homepage": "https://github.com/victorjhernandez06/portfolio2023#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
